@@ -1,6 +1,7 @@
 <div style="float: right; margin-left: 20px">
     <img src="assets/images/image.png" style="width: 35%; height: auto;">
 </div>
+
 # Sobhan Salarian
 #### **Junior Data Scientist**
 - **Email:** sobhan.salarian.2000@gmail.com
