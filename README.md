@@ -1,9 +1,9 @@
 <div style="float: right; margin-left: 20px;">
-    <img src="/assets/image.png" alt="My Picture" width="220">
+    <img src="assets/images/image.png">
 </div>
 
 # Sobhan Salarian
-#### (Junior Data scientist)
+#### **Junior Data Scientist**
 - **Email:** sobhan.salarian.2000@gmail.com
 - **LinkedIn:** [Link](https://www.linkedin.com/in/sobhansalarian/)
 - **GitHub:** [Link](https://github.com/SobhanSalarian)
@@ -16,6 +16,9 @@
 ## Technical Skills:
 - Python(pandas, numpy, matplotlib, bokeh, seaborn)
 - sql (MySql DataBase)
+- Git
+- Html & Css
+
 
 ## Education			        		
 - B.S., Computer Engineering | Kermanshah University of Technology (_September 2018 - July 2023_)
