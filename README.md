@@ -1,7 +1,7 @@
 <style>
     .responsive-container {
-        display: flex;
-        justify-content: flex-end;
+        display: inline-block;
+        float: inline-end;
         margin-left: 20px;
     }
 
