@@ -1,12 +1,33 @@
-<div style="float: right; margin-left: 20px">
-    <img src="assets/images/image.png" style="width: 35%; height: auto;">
+<style>
+    .responsive-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 20px;
+    }
+
+    .responsive-container img {
+        width: 100%;
+        height: auto;
+        max-width: 100px; /* Default size for small screens */
+    }
+
+    @media (min-width: 600px) {
+        .responsive-container img {
+            max-width: 300px; /* Larger size for bigger screens */
+        }
+    }
+</style>
+
+<div class="responsive-container">
+    <img src="assets/images/image.png" alt="Image">
 </div>
+
 
 # Sobhan Salarian
 #### **Junior Data Scientist**
 - **Email:** sobhan.salarian.2000@gmail.com
-- **LinkedIn:** [Link](https://www.linkedin.com/in/sobhansalarian/)
-- **GitHub:** [Link](https://github.com/SobhanSalarian)
+- **LinkedIn:** [Link to my LinkedIn](https://www.linkedin.com/in/sobhansalarian/)
+- **GitHub:** [Link to my GitHub](https://github.com/SobhanSalarian)
 - **Location:** Isfahan, Iran
 
 ## language 
@@ -17,7 +38,7 @@
 - Python(pandas, numpy, matplotlib, bokeh, seaborn)
 - sql (MySql DataBase)
 - Git
-- Html & Css
+- Html & Css (sass)
 
 
 ## Education			        		
