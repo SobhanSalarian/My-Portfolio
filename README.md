@@ -10,10 +10,13 @@
         height: auto;
         max-width: 100px; /* Default size for small screens */
     }
+    
 
     @media (min-width: 600px) {
         .responsive-container img {
-            max-width: 300px; /* Larger size for bigger screens */
+            max-width: 200px;
+            margin-right: 10px;
+            margin-top: -10px;            
         }
     }
 </style>
