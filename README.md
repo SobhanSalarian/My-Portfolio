@@ -39,9 +39,10 @@
 
 ## Technical Skills:
 - Python(pandas, numpy, matplotlib, bokeh, seaborn)
-- sql (MySql DataBase)
+- Sql (MySql DataBase)
 - Git
 - Html & Css (sass)
+- Microsoft PowerBi & word
 
 
 ## Education			        		
