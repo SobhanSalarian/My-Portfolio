@@ -27,7 +27,7 @@
       <nav>
         <ul></ul>
       </nav>
-      <section>
+      <section id="portfolio-content">
         {{ content }}
 
       </section>
@@ -43,7 +43,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     <script>
       document.getElementById("download-pdf").addEventListener("click", function () {
-          const element = document.getElementById("content"); // You can specify a specific element if you don't want to download the entire page
+          const element = document.getElementById("portfolio-content"); // You can specify a specific element if you don't want to download the entire page
           const options = {
               margin:       1,
               filename:     'portfolio.pdf',
