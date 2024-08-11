@@ -20,6 +20,7 @@
       <header>
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        <button id="download-pdf">Download Portfolio as PDF</button>
       </header>
     
     <div class="wrapper">
@@ -34,8 +35,23 @@
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
       </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+      document.getElementById("download-pdf").addEventListener("click", function () {
+          const element = document.body; // You can specify a specific element if you don't want to download the entire page
+          const options = {
+              margin:       1,
+              filename:     'portfolio.pdf',
+              image:        { type: 'jpeg', quality: 0.98 },
+              html2canvas:  { scale: 2 },
+              jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+          };
+      
+          html2pdf().from(element).set(options).save();
+      });
+      </script>
+      
   </body>
 </html>
