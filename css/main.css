@@ -2,14 +2,14 @@
 /* Inputs */
 /* Timeline custom component */
 .timeline {
-  border-left: 2px solid #E6E9ED;
-  padding: 1rem 0; }
+  border-left: 2px solid #E6E9ED }
 
 .timeline-card {
   position: relative;
   margin-left: 31px;
   border-left: 2px solid;
-  margin-bottom: 2rem; }
+  border-radius: 19px;
+  margin-bottom: 1rem; }
 
 .timeline-card:last-child {
   margin-bottom: 1rem; }
