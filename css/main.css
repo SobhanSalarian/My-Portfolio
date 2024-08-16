@@ -87,6 +87,9 @@ html {
   border-radius: 10px 10px 15px 15px;
   color: #495057; }
 
+.pt-4 {
+  padding-top: 1.5rem !important; }
+
 .avatar {
   max-width: 216px;
   max-height: 216px;
@@ -141,7 +144,7 @@ footer a:not(.nav-link) {
     padding-top: 5rem;
     page-break-before: always; } }
     hr {
-      margin: 0.5rem 0;
+      margin: 1rem 0;
       color: #adb5bd;
       background-color: currentColor;
       border: 0;
