@@ -1,6 +1,12 @@
 /* Buttons */
 /* Inputs */
 /* Timeline custom component */
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+}
+
+
 .timeline {
   border-left: 2px solid #E6E9ED }
 
