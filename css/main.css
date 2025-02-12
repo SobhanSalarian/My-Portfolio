@@ -89,6 +89,10 @@ html {
 .cover-bg {
   background-color: hsla(60, 10%, 92%, 1);
   background-image: url('../images/Macquarie-University-ChrisStacey-411.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
   box-shadow: 0 0px 6px 0px rgba(31, 38, 135, 0.37);
   border-radius: 10px 10px 15px 15px;
   color: #495057; }
