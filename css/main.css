@@ -96,6 +96,12 @@ html {
   box-shadow: 0 0px 6px 0px rgba(31, 38, 135, 0.37);
   border-radius: 10px 10px 15px 15px;
   color: #495057; }
+.cover-bg img {
+ width: 100%;  /* Makes the image responsive to its container */
+height: auto; /* Maintains the aspect ratio */
+max-width: 100%; /* Prevents the image from exceeding its original size */
+display: block; /* Removes unwanted spacing */
+ }
 
 .pt-4 {
   padding-top: 1.5rem !important; }
