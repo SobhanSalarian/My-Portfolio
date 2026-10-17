@@ -106,6 +106,18 @@ html {
 .nav-item + .nav-item {
   margin-left: 1rem; }
 
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .nav-link {
+    font-size: 1rem; }
+  .nav-item + .nav-item {
+    margin-left: 0.75rem; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-link {
+    font-size: 0.95rem; }
+  .nav-item + .nav-item {
+    margin-left: 0.5rem; } }
+
 .cover {
   border-radius: 10px; }
 
